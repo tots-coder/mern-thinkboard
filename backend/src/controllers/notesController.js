@@ -1,5 +1,10 @@
 import Note from "../models/Note.js";
 
+/**
+ *  There are more advanced techniques than using a try-catch
+ *  block. These are wrapper functions. Search web for more info.
+ */
+
 export async function getAllNotes(_, res) {
   // _ (underscore) represents a skipped(unused) variable
   try {
